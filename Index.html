@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title> Форма для заполнения </title>
+    <link rel="stylesheet" href="Test.css">
+</head>
+<body> 
+    <div class='frame'> 
+        <form class='feedback-form' action="https://digital-spectr.com/ac/academy.php" method="POST">
+            <div class='blok1'> Задать вопрос    
+            </div>
+            <div class='blok2'>
+                <input type="text" label for="name" required placeholder="Фамилия Имя Отчество*" pattern="^[А-Яа-яЁё\s]+$"/> 
+            </div>
+            <div class='blok3'>
+                <input type="tel" lebel for="phone" required placeholder="Телефон*" pattern="^[ 0-9]+$"/> 
+            </div>
+            <div class='blok4'>
+                <input type="email" lebel for="email" placeholder= "Email"/>
+            </div>
+            <div class='blok5'>
+                <input type="button" value="Отправить запрос">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
